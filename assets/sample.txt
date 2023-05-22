@@ -1,0 +1,19 @@
+                                Event Loop In Dart
+
+Hello programmers, If you write UI code then you should know the concepts of the Event Loop architecture of Dart. It ensures that graphics operations and events such as I/O from the disk, finger taps from the user… and so on.
+
+Introduction
+In Computer Science, Event Loop is a programming construct or design pattern that continually tests and manages events and calls the appropriate routine to handle them.
+For example, the main function in the program is also the event loop that typically waits for the users to trigger something.
+
+Did You Think ..?
+When a program starts executing and dispose of, There are so many events that occur at that time. Can you handle these events yourself, like in which order that events execute or happen, or can you handle all of them with a single thread in that way it never blocks..?
+
+Basic Concept
+Dart
+
+Dart is a single-threaded programming language by design because it is a single thread so
+ everywhere we have an Asynchronous code.
+Many library functions return future objects and we can register handlers to respond to events such as mouse clicks, file I/O completions & timer expirations…. all kinds of stuff.
+
+So quickly, we can say that Dart handles asynchronous programming by Event Loop.
